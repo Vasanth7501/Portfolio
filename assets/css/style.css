@@ -14,7 +14,11 @@ body {
     position: relative;
     background: #010e1b;
 }
-  body::before {
+.background {
+    position: fixed;
+    z-index: -1;
+}
+  /* body::before {
     content: "";
     position: fixed;
     top: 0;
@@ -26,7 +30,7 @@ body {
     background-size: cover;
     opacity: 1;
     pointer-events: none;
-  }
+  } */
   
   @media (min-width: 1024px) {
     body::before {
