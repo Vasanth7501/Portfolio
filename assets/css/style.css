@@ -1260,6 +1260,9 @@ section.section-show#skills {
     height: 400px;
     margin: auto;
 }
+.portfolio-item {
+  margin-bottom: 30px;
+}
 
 /* .profile-wrapper::before {
     content: "";
