@@ -16,7 +16,24 @@ body {
 }
 .background {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
+    overflow: hidden;
+}
+
+.background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#header,
+section,
+.content {
+    position: relative;
+    z-index: 2;
 }
   /* body::before {
     content: "";
